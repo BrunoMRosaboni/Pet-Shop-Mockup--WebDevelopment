@@ -1,0 +1,93 @@
+<!DOCTYPE html >
+<html lang="pt-BR">
+
+<head>
+	<title>Pet Shop</title>
+	<!--meta  charset=iso-8859-1" /-->
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+		<style type="text/css">
+			p, body, td { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 10pt; }
+			body { padding: 0px; margin: 0px; background-color: #ffffff; }
+			a { color: #1155a3; }
+			.space { margin: 10px 0px 10px 0px; }
+			.main { padding: 10px }
+		</style>
+                <script src="js/jquery-1.9.1.min.js"></script>
+
+		<!-- DayPilot library -->
+		<script src="js/daypilot/daypilot-all.min.js"></script>
+	
+</head>
+
+ <body>
+        <div class="header">
+           			<div id="header">
+	           		<a href="index.html" id="logo"><img src="images/logo.gif" width="310" height="114" alt="" title=""></a>
+					<ul class="navigation">
+						<li ><a href="index.html">Home</a></li>
+						<li><a href="petmart.html">PetMart</a></li>
+						<li ><a href="about.html">About us</a></li>
+						<li><a href="blog.html">Agendamento</a></li>
+						<li class="active"><a href="petguide.html">PetGuide</a></li>
+						<li ><a href="contact.html">Contact us</a></li>
+					</ul>
+			
+        </div>
+        <div id="content">
+				   
+				        <div class="content">
+							   <h2>Calendario</h2>
+							   <div>
+								   <p>
+									 
+									 O cliente Nessa sessao deve ARRASTAR a reserva em cima do horario desejado o horario disponivel para agendamento do banho, tosa dos pelos ou consulta veterinaria
+								   </p>
+							   </div>
+        <div class="main">
+
+            <div id="dp"></div>
+
+            <script>
+                var dp = new DayPilot.Scheduler("dp");
+                dp.scale = "Day";
+                dp.timeHeaders = [
+                    { groupBy: "Month"},
+                    { groupBy: "Day", format: "d"}
+                ];
+                dp.heightSpec = "Max";
+                dp.height = 380;
+
+                dp.startDate = new DayPilot.Date("2017-04-10");
+                dp.days = 365;
+                dp.resources = [
+                    {name: "8:00 AM", id: 1},
+                    {name: "9:00 AM", id: 2},
+                    {name: "10:00 AM", id: 3},
+                    {name: "11:00 AM", id: 4},
+                    {name: "13:00 PM ", id: 5},
+                    {name: "14:00 PM", id: 6},
+                    {name: "15:00 PM", id: 7},
+                    {name: "16:00 PM", id: 8},
+                    {name: "17:00 PM", id: 9},
+                    {name: "17:45 PM", id: 10},
+                ];
+                dp.events.list = [
+                    {
+                        start: "2017-04-10",
+                        end: "2017-04-10",
+                        id: 1,
+                        resource: 2,
+                        text: "Horario #1"
+                    }
+
+                ];
+                dp.init();
+
+            </script>
+
+        </div>
+
+    </body>
+</html>
