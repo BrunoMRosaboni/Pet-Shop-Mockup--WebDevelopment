@@ -6,8 +6,8 @@
 	<!--meta  charset=iso-8859-1" /-->
 	<meta charset="UTF-8">
 	<meta http-equiv="refresh" content="100">
-	<meta name="keywords" content="HTML5, CSS, SCC0219, INTRODUÇÃO AO DESENVOLVIMENTO WEB">
-	<meta name="description" content="Site da disciplina de desenvolvimento web do glorioso CAASO, popularmente conhecida como USP - SÃO CARLOS">
+	<meta name="keywords" content="HTML5, CSS, SCC0219, INTRODUÃ‡ÃƒO AO DESENVOLVIMENTO WEB">
+	<meta name="description" content="Site da disciplina de desenvolvimento web do glorioso CAASO, popularmente conhecida como USP - SÃƒO CARLOS">
 	<meta name="author" content="Werik Amaral Fachim (PeLanza), Bruno Molina Rosaboni (Panicat)">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,6 @@
 		<ul class="navigation">
 			<li ><a href="index.html">Inicio</a></li>
 			<li><a href="petprodutos.html">Produtos</a></li>
-			<li class="active"><a href="sobre.html">Sobre nós</a></li>
 			<li><a href="calendario.html">Agenda</a></li>
 			<li><a href="guiapet.html">Guia</a></li>
 			<li><a href="contato.html">Contato</a></li>
@@ -35,14 +34,14 @@
 			<div class="content">
 				<div class="sobre">
 					<form class="pure-form">
-						<fieldset>
-						<h2>Area de acesso para clientes</h2>
+						
+						<h2>Area de acesso para clientes cadastrados</h2>
 
-							<input type="password" placeholder="Password" id="password" required>
-							<input type="password" placeholder="Confirm Password" id="confirm_password" required>
+							<input type="password" placeholder="Usuario" id="usuario" required>
+							<input type="password" placeholder="Password" id="confirm_password" required>
 
 							<button type="submit" class="pure-button pure-button-primary">Confirm</button>
-						</fieldset>
+						
 					</form>
 				</div>
 			</div>
@@ -51,65 +50,45 @@
 
 
 				<div class="featured">
-					<h2>Featured Topic</h2>
+					<h2>Cadastro Clientes</h2>
 					<ul>
-						<li>
-							<a href="sobre.html"><img src="images/puppy2.jpg" width="115" height="155" alt="Pet Shop" title="Pet Shop"></a>
-							<h2><a href="sobre.html">What they need</a></h2>
-							<p>
-								Mirum est notare quam littera gothica, quam nunc putamus parum clara m, ant epo suerit li tterar. <a class="more" href="sobre.html">read more</a>
-							</p>
-
-						</li>
-						<li>
-							<a href="sobre.html"><img src="images/bird2.jpg" width="115" height="155" alt="Pet Shop" title="Pet Shop"></a>
-							<h2><a href="sobre.html">Fun birds</a></h2>
-							<p>
-								Mirum est notare quam littera gothica, quam nunc putamus parum clara m, ant epo suerit li tterar. <a class="more" href="sobre.html">read more</a>
-							</p>
-
-						</li>
-						<li class="last">
-							<a href="sobre.html"><img src="images/cat2.jpg" width="115" height="155" alt="Pet Shop" title="Pet Shop"></a>
-							<h2><a href="sobre.html">Something good</a></h2>
-							<p>
-								Mirum est notare quam littera gothica, quam nunc putamus parum clara m, ant epo suerit li tterar. <a class="more" href="sobre.html">read more</a>
-							</p>
-
-						</li>
-					</ul>
-				</div>
-
-
-				<div class="search">
-					<input type="text" name="s" value="Find"><button>&nbsp;</button>
-					<label for="articles"><input type="radio" id="articles"> Articles</label>
-					<label for="products"><input type="radio" id="products" checked> PetMart Products</label>
-				</div>
-
-				<div class="section"> 								
+						<div class="section"> 								
 					<ul class="navigation">
-						<li class="active"><a href="index.html">Shopping Guides</a></li>
-						<li><a href="index.html">Discounted Items</a></li>
+						<li class="active"><a href="index.html">Fazer cadastro</a></li>
 					</ul>
 
 					<div class="aside">
 						<div>
 							<div>
 								<ul>
-									<li><a href="index.html">Pet Accesories </a> <a class="more" href="index.html">see all</a></li>
-									<li><a href="index.html">Bath Essentials</a> <a class="more" href="index.html">see all</a></li>
-									<li><a href="index.html">Pet Food</a> <a class="more" href="index.html">see all</a></li>
-									<li><a href="index.html">Pet Vitamins</a> <a class="more" href="index.html">see all</a></li>
-									<li><a href="index.html">Pet Needs</a> <a class="more" href="index.html">see all</a></li>
-									<li><a href="index.html">Pet Toy and Treats</a> <a class="more" href="index.html">see all</a></li>
-									<li><a href="index.html">Pet Supplies</a> <a class="more" href="index.html">see all</a></li>
-									<li><a href="index.html">Pet Emergency Kit</a> <a class="more" href="index.html">see all</a></li>
+									<form action="cadastro-clientes">
+										Primeiro nome:<br>
+										<input type="text" name="firstname" value="Mickey">
+										<br>
+										Sobrenome:<br>
+										<input type="text" name="lastname" value="Mouse">
+										<br>
+										Apelido:<br>
+										<input type="text" name="apelido" value="ratinho">
+										<br>
+										Pet nome:<br>
+										<input type="text" name="Petname" value="pluto">
+										<br>
+										Pet Especie:<br>
+										<input type="text" name="Especie" value="cachorro">
+										<br>
+										<br>
+										<input type="submit" value="Submit">
+									</form> 
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
+					</ul>
+				</div>
+
+				
 
 			</div>
 		</div>
