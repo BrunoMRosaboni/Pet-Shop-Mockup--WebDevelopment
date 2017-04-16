@@ -1,0 +1,101 @@
+<!DOCTYPE html5 >
+<html lang="pt-BR">
+
+<head>
+	<title>PetShop - Area do Administrador</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="refresh" content="100">
+	<meta name="keywords" content="HTML5, CSS, SCC0219, INTRODUÇÃO AO DESENVOLVIMENTO WEB">
+	<meta name="description" content="Site da disciplina de desenvolvimento web do glorioso CAASO, popularmente conhecida como USP - SÃO CARLOS">
+	<meta name="author" content="Werik Amaral Fachim (PeLanza), Bruno Molina Rosaboni (Panicat)">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+	<div id="header">
+		<a href="index.html" id="logo"><img src="images/logo.gif" width="310" height="114" alt="" title=""></a>
+		<ul class="navigation">
+			<li ><a href="index.html">Inicio</a></li>
+			<li><a href="petprodutos.html">Produtos</a></li>
+			<li><a href="calendario.html">Agenda</a></li>
+			<li><a href="guiapet.html">Guia</a></li>
+			<li><a href="contato.html">Contato</a></li>
+			<li class="active"><a href="areaadmin.html">Area Restrita</a></li>
+		</ul>
+	</div>
+
+	<div id="body">
+
+		<div id="content">
+
+			<div class="content">
+				<div class="sobre">
+					<form class="pure-form">
+						<fieldset>
+						<h2>Acesso restrito. Apenas administradores</h2>
+
+							<input type="User" placeholder="User" id="User" required>
+							<input type="Password" placeholder="Password" id="Password" required>
+
+							<button type="submit" class="pure-button pure-button-primary">Acess</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div class="search">
+					<input type="text" name="s" value="Find"><button>&nbsp;</button>
+					<label for="articles"><input type="radio" id="articles"> Articles</label>
+					<label for="products"><input type="radio" id="products" checked> PetMart Products</label>
+				</div>
+
+				<div class="section"> 								
+					<ul class="navigation">
+						<li><a href="index.html">Discounted Items</a></li>
+						<li><a href="petprodutos.html">Produtos</a></li>
+						<li class="active"><a href="sobre.html">Sobre</a></li>
+						<li><a href="calendario.html">Agenda</a></li>
+						<li><a href="guiapet.html">Guia</a></li>
+						<li><a href="contato.html">Contato</a></li>
+						<li class="active"><a href="index.html">Shopping Guides</a></li>
+					</ul>
+
+					<div class="aside">
+						<div>
+							
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="featured">
+			<ul>
+				<li><a href="index.html"><img src="images/organic-and-chemical-free.jpg" width="300" height="90" alt="Pet Shop" title="Pet Shop" ></a></li>
+				<li><a href="index.html"><img src="images/good-food.jpg" width="300" height="90" alt="Pet Shop" title="Pet Shop" ></a></li>
+				<li class="last"><a href="index.html"><img src="images/pet-grooming.jpg" width="300" height="90" alt="Pet Shop" title="Pet Shop" ></a></li>
+			</ul>
+
+		</div>
+
+
+	</div>
+
+	<div id="footer">
+		<div class="section">
+		</div>
+		<div id="footnote">
+			<div class="section">
+				&copy; 2017 <a href="index.html">Petshop Boys</a>. Nothing Rights Reserved.
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>
