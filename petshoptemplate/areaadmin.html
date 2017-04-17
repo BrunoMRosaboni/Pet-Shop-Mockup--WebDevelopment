@@ -2,11 +2,13 @@
 <html lang="pt-BR">
 
 <head>
-	<title>PetShop - Area do Administrador</title>
+	<title>Area Admin</title>
 	<meta charset="UTF-8">
-	<meta http-equiv="refresh" content="100">
+
+	<meta http-equiv="refresh" content="30">
 	<meta name="keywords" content="HTML5, CSS, SCC0219, INTRODUÇÃO AO DESENVOLVIMENTO WEB">
 	<meta name="description" content="Site da disciplina de desenvolvimento web do glorioso CAASO, popularmente conhecida como USP - SÃO CARLOS">
+
 	<meta name="author" content="Werik Amaral Fachim (PeLanza), Bruno Molina Rosaboni (Panicat)">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -23,7 +25,6 @@
 			<li><a href="calendario.html">Agenda</a></li>
 			<li><a href="guiapet.html">Guia</a></li>
 			<li><a href="contato.html">Contato</a></li>
-			<li class="active"><a href="areaadmin.html">Area Restrita</a></li>
 		</ul>
 	</div>
 
@@ -34,42 +35,97 @@
 			<div class="content">
 				<div class="sobre">
 					<form class="pure-form">
-						<fieldset>
-						<h2>Acesso restrito. Apenas administradores</h2>
+						
+						<h2>Area restrita. Administradores apenas</h2>
 
-							<input type="User" placeholder="User" id="User" required>
-							<input type="Password" placeholder="Password" id="Password" required>
+							<input type="password" placeholder="User" id="user" required>
+							<input type="password" placeholder="Password" id="confirm_password" required>
 
-							<button type="submit" class="pure-button pure-button-primary">Acess</button>
-						</fieldset>
+							<button type="Acess" class="pure-button pure-button-primary">Acess</button>
+						
 					</form>
 				</div>
 			</div>
 
 			<div id="sidebar">
-				<div class="search">
-					<input type="text" name="s" value="Find"><button>&nbsp;</button>
-					<label for="articles"><input type="radio" id="articles"> Articles</label>
-					<label for="products"><input type="radio" id="products" checked> PetMart Products</label>
-				</div>
 
-				<div class="section"> 								
-					<ul class="navigation">
-						<li><a href="index.html">Discounted Items</a></li>
-						<li><a href="petprodutos.html">Produtos</a></li>
-						<li class="active"><a href="sobre.html">Sobre</a></li>
-						<li><a href="calendario.html">Agenda</a></li>
-						<li><a href="guiapet.html">Guia</a></li>
-						<li><a href="contato.html">Contato</a></li>
-						<li class="active"><a href="index.html">Shopping Guides</a></li>
-					</ul>
+
+				<div class="featured">
+					<h2>Controle do Administrador</h2>
+					<ul>
+						<div class="section"> 							
 
 					<div class="aside">
 						<div>
-							
+							<div>
+								<ul>
+									<form action="cadastro-administradores">
+										Primeiro nome:<br>
+										<input type="text" name="name" value="admin">
+										<br>
+										ID:<br>
+										<input type="text" name="ID" value="000000">
+										<br>
+										Telefone:<br>
+										<input type="text" name="Telefone" value="2222-2222">
+										<br>
+										E-mail:<br>
+										<input type="text" name="E-mail" value="seuemail@seuemail.com">
+										<br>
+										<br>
+										<br>
+										<input type="submit" value="Submit">
+									</form> 
+									<form action="cadastro-clientes">
+										Primeiro nome:<br>
+										<input type="text" name="firstname" value="Mickey">
+										<br>
+										Sobrenome:<br>
+										<input type="text" name="lastname" value="Mouse">
+										<br>
+										Apelido:<br>
+										<input type="text" name="apelido" value="ratinho">
+										<br>
+										Pet nome:<br>
+										<input type="text" name="Petname" value="pluto">
+										<br>
+										Pet Especie:<br>
+										<input type="text" name="Especie" value="cachorro">
+										<br>
+										<br>
+										<input type="submit" value="Submit">
+									</form> 
+									<form action="cadastro-produtos">
+										Produto (Nome):<br>
+										<input type="text" name="NomeProduto" value="">
+										<br>
+										ID de Produto:<br>
+										<input type="text" name="ID_Produto" value="">
+										<br>
+										Descriçao:<br>
+										<input type="text" name="Descrição" value="">
+										<br>
+										Preço:<br>
+										<input type="text" name="Preço" value="">
+										<br>
+										Quantidade em Estoque:<br>
+										<input type="text" name="QuantidadeEmEstoque" value="">
+										<br>
+										Quantidade Vendida:<br>
+										<input type="text" name="QuantidadeVendida" value="">
+										<br>
+										<br>
+										<input type="submit" value="OK">
+									</form> 
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
+					</ul>
+				</div>
+
+				
 
 			</div>
 		</div>
