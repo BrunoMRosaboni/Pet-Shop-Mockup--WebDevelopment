@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="clientes.xsl"?>
+<clientes id="Cliente">
+	<cliente>
+		<nome>Leandro Falcão</nome>
+		<email>lsfalcao@usp.br</email>
+		<senha>123456</senha>
+		<cpf>123.456.789-00</cpf>
+		<rg>12.345.678-9</rg>
+		<telefone>(16)3333.3333</telefone>
+	</cliente>
+	<cliente>
+		<nome>Ana Mara Marques da Cunha Prado</nome>
+		<email>anamara@ifsc.usp.br</email>
+		<senha>123456</senha>
+		<cpf>123.456.789-00</cpf>
+		<rg>12.345.678-9</rg>
+		<telefone>(16)3333.3333</telefone>
+	</cliente>
+	<cliente>
+		<nome>Bruno</nome>
+		<email>bruno@qw3.com.br</email>
+		<senha>123456</senha>
+		<cpf>123.456.789-00</cpf>
+		<rg>12.345.678-9</rg>
+		<telefone>(16)3333.3333</telefone>
+	</cliente>
+	<cliente>
+		<nome>Guilherme</nome>
+		<email>guilherme@qw3.com.br</email>
+		<senha>123456</senha>
+		<cpf>123.456.789-00</cpf>
+		<rg>12.345.678-9</rg>
+		<telefone>(16)3333.3333</telefone>
+	</cliente>
+	<cliente>
+		<nome>Lucimara Brasil</nome>
+		<email>lucianabrmartinez@gmail.com</email>
+		<senha>123456</senha>
+		<cpf>123.456.789-00</cpf>
+		<rg>12.345.678-9</rg>
+		<telefone>(16)3333.3333</telefone>
+	</cliente>
+	<cliente>
+		<nome>teste</nome>
+		<email>testedeemailqw3@qw3.com.br</email>
+		<senha>123456</senha>
+		<cpf>123.456.789-00</cpf>
+		<rg>12.345.678-9</rg>
+		<telefone>(16)3333.3333</telefone>
+	</cliente>
+	<cliente>
+		<nome>Vilma Coutinho</nome>
+		<email>vilma.coutinho@ifsc.usp.br</email>
+		<senha>123456</senha>
+		<cpf>123.456.789-00</cpf>
+		<rg>12.345.678-9</rg>
+		<telefone>(16)3333.3333</telefone>
+	</cliente>
+</clientes>

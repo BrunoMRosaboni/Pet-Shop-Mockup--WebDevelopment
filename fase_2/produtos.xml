@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="produtos.xsl"?>
+<produtos id="Produto">
+	<produto>
+		<cod>VK030V</cod>
+		<nome>LAMINA # 7 UAU+</nome>
+		<estoque>2</estoque>
+		<garantia>Sim</garantia>
+		<fabricante>RS Import</fabricante>
+		<preco>R$ 50,00</preco>
+	</produto>
+	<produto>
+		<cod>DC903V</cod>
+		<nome>Gaiola Portátil Verde</nome>
+		<estoque>10</estoque>
+		<garantia>Sim</garantia>
+		<fabricante>Percell</fabricante>
+		<preco>R$ 50,00</preco>
+	</produto>
+	<produto>
+		<cod>16DG2AM</cod>
+		<nome>Rasqueadeira Curva Base de Plastico M</nome>
+		<estoque>3</estoque>
+		<garantia>Sim</garantia>
+		<fabricante>Made in China</fabricante>
+		<preco>R$ 20,00</preco>
+	</produto>
+	<produto>
+		<cod>86GD12M</cod>
+		<nome>Tapete Higiênico Baby Pads</nome>
+		<estoque>7</estoque>
+		<garantia>Sim</garantia>
+		<fabricante>Petix</fabricante>
+		<preco>R$ 10,89</preco>
+	</produto>
+	<produto>
+		<cod>NH840M</cod>
+		<nome>Doguitos Picanha</nome>
+		<estoque>50</estoque>
+		<garantia>Não</garantia>
+		<fabricante>Purina</fabricante>
+		<preco>R$ 4,60</preco>
+	</produto>
+	<produto>
+		<cod>VB900H</cod>
+		<nome>Vestido Branca de Neve</nome>
+		<estoque>9</estoque>
+		<garantia>Sim</garantia>
+		<fabricante>Dolce e Cane</fabricante>
+		<preco>R$ 46,17</preco>
+	</produto>
+</produtos>

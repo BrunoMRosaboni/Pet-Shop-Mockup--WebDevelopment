@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="servicos.xsl"?>
+<servicos id="Servico">
+	<servico>
+		<cod>8926</cod>
+		<nome>Banho convencional</nome>
+		<preco>R$ 50,00</preco>
+	</servico>
+	<servico>
+		<cod>8052</cod>
+		<nome>Banho com hidratação</nome>
+		<preco>R$ 70,00</preco>
+	</servico>
+	<servico>
+		<cod>2330</cod>
+		<nome>Banho medicamentoso (com prescrição veterinária)</nome>
+		<preco>R$ 90,00</preco>
+	</servico>
+	<servico>
+		<cod>4854</cod>
+		<nome>Hidratação de pitanga</nome>
+		<preco>R$ 130,00</preco>
+	</servico>
+	<servico>
+		<cod>9264</cod>
+		<nome>Hidratação vinho terapia</nome>
+		<preco>R$ 230,00</preco>
+	</servico>
+	<servico>
+		<cod>1094</cod>
+		<nome>Cauterização</nome>
+		<preco>R$ 50,00</preco>
+	</servico>
+	<servico>
+		<cod>4086</cod>
+		<nome>Tosa higiênica</nome>
+		<preco>R$ 20,00</preco>
+	</servico>
+	<servico>
+		<cod>9071</cod>
+		<nome>Tosa com lâmina padrão</nome>
+		<preco>R$ 30,00</preco>
+	</servico>
+	<servico>
+		<cod>2745</cod>
+		<nome>Tosa com adaptador</nome>
+		<preco>R$ 40,00</preco>
+	</servico>
+	<servico>
+		<cod>3095</cod>
+		<nome>Tosa na tesoura</nome>
+		<preco>R$ 30,00</preco>
+	</servico>
+	<servico>
+		<cod>5801</cod>
+		<nome>Escovação de dentes</nome>
+		<preco>R$ 15,00</preco>
+	</servico>
+</servicos>

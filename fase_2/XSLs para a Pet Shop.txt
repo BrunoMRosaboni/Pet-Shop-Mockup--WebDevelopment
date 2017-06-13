@@ -1,0 +1,11 @@
+Nome: Leandro dos Santos Falcão n.USP: 4286021
+
+XSLs para a Pet Shop
+
+Para o XML contendo os dados do Pet Shop (com vários clientes, produtos’, etc.!), desenvolver:
+Desenvolver folhas de estilos para gerar 3 visões (3 XSDs) diferentes dos dados:
+
+    Animais & Clientes (donos),
+    Animais & Produtos (somente os produtos usados.comprados para cada animal) e
+    Animais & Serviços (somente os serviços prestados a esse animal).
+
